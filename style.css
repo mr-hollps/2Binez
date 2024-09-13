@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'stretch';
+  src: url('StretchPro.otf') format(opentype);
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor1:#9B0FFF;
+  --cor2:#850DDB;
+  --cor3:#6D0BB3;
+  --cor4:#54088A;
+  --cor5:#3B0661;
+  --cor6:#000019;
+  --cor7:#00002e;
+
+  --fontedestaque: 'Bebas Neue', curisve;
+  --fontenova: 'stretch', sans-serif;
+  }
+  
+body {
+  background-image: url(fundo.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient( to top, var(--cor5), var(--cor4));
+  text-align: center;
+  padding-top: 40px;
+  min-height: 150px;
+}
+
+header > h1 {
+  font-family: var(--fontenova);
+  font-size: 3.5em;
+  text-shadow: 1px 1px 2px var(--cor2);
+  color: white;
+  margin-bottom: 20px;
+}
+
+header > p {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.450);
+  max-width: 600px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+header strong {
+  color: var(--cor1);
+}
+
+main {
+  background-image: linear-gradient(to bottom, var(--cor6), var(--cor7));
+  margin: auto;
+  min-width: 290px;
+  max-width: 1000px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+  font-family: var(--fontedestaque);
+  padding: 10px 0px 30px 0px;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.350);
+}
+
+main img {
+  min-width: 200px;
+  height: 100px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+article {
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container1 img {
+  width: 200px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container2 img {
+  margin-left: -18px;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container5 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container6 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+.container7 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.25s;
+  margin: 10px;
+}
+
+.container8 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.25s;
+  margin: 10px;
+}
+
+.container9 {
+  display: flex;
+  align-items: center;
+  transition-duration: 0.25s;
+  margin: 10px;
+}
+
+main .none {
+  font-weight: bold;
+  color: #474747;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.none:hover {
+  text-decoration: underline;
+  color: var(--cor3);
+}
+
+nav {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: solid;
+  transition-duration: 0.25s;
+}
+
+nav a:hover {
+  color: var(--cor2);
+  text-decoration: underline;
+}
+
+aside {
+  background-image: linear-gradient( to top, var(--cor5), var(--cor4));
+  padding: 10px;
+  text-align: center;
+}
+
+aside > a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+aside > a:hover {
+  text-decoration: underline;
+}
+
+aside .normal {
+  padding: 10px;
+  text-align: center;
+}
+
+aside .block-top {
+  display: block;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+aside .block {
+  display: block;
+  padding: 8px;
+}
+
+aside footer {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 3.5px;
+}
